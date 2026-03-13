@@ -1,0 +1,8 @@
+[package]
+name = "pub-visibility"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cli = { workspace = true }
+embedded-cli = { workspace = true }

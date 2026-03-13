@@ -1,0 +1,8 @@
+[workspace]
+members = ["cli", "app"]
+resolver = "3"
+
+[workspace.dependencies]
+cli = { path = "./cli" }
+embedded-cli = { git = "https://github.com/funbiscuit/embedded-cli-rs.git", rev = "45597c350239d70444d6d84ec84c7d78dc1ac044" }
+# embedded-cli = { git = "https://github.com/markopesevski/embedded-cli-rs.git", rev = "cd6e064e0cecdc840bd35b3c59ccfece92a6968d" }
